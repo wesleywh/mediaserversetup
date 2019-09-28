@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# Another startup script can be found at: /etc/init.d/startup.sh
-
 # Helpful Vars
 IPADDRESS=`ifconfig eth0 | perl -nle 's/dr:(\S+)/print $1/e'`
 SMTP_AUTH_USER=REPLACEME
